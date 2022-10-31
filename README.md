@@ -3,9 +3,9 @@
   <a href="https://mui.com/" rel="noopener" target="_blank"><img width="150" src="https://mui.com/static/logo.svg" alt="MUI logo"></a>
 </p> -->
 
-<h1 align="center">PlaceboUI Core</h1>
+<h1 align="center">Placebo UI</h1>
 
-**PlaceboUI Core** contains foundational React UI component libraries for shipping new features faster.
+**Placebo UI** contains foundational React UI component libraries for shipping new features faster.
  
 
 <div align="center">
