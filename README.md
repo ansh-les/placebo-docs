@@ -13,8 +13,7 @@ Our design system helps us work together to build a great experience for all.
 
 ### Primary
 
-#EDF0FE #DAE0FD #B5C2FB #90A3FA #6B85F8 #4666F6 #3852C5 #2A3D94 #1C2962 #0E1431
-
+`#EDF0FE` `#DAE0FD` `#B5C2FB` `#90A3FA` `#6B85F8` `#4666F6` `#3852C5` `#2A3D94` `#1C2962` `#0E1431`
 ## Installation
 
 Placebo UI is available as an [yarn package](https://www.google.com/).
