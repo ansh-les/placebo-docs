@@ -83,6 +83,91 @@ Use SVGs instead of raster images for fast loading & better quality.
 
 ![Iconography%20664a446b5df046daa0d1126330253e2d/Screenshot_2021-07-28_at_7.28.33_PM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/24101c80-b291-4035-9496-74f0569a5f61/Screenshot_2021-07-28_at_7.28.33_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221031T123956Z&X-Amz-Expires=86400&X-Amz-Signature=eff79fce5fd2c5c0499b5ec0e6cecdde9bd08f33fc15fe93bd563f298102cd50&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screenshot_2021-07-28_at_7.28.33_PM.png%22&x-id=GetObject)
 
+## Typography
+
+> Typography is a major part of Suraasa's brand. We've taken care to select a family of fonts that promote legibility and accessibility in both English & Arabic languages.
+
+### Font Stack
+
+---
+
+We utilize system fonts at Suraasa, which allow for optimized performance. This design decision takes advantage of retina screens, dynamic kerning, additional font-weights, and improved readability.
+
+```css
+Inter, Noto Sans Arabic, sans-serif
+```
+
+Add this to your CSS to preload system fonts and set up browsers for legibility:
+
+```css
+/* Load system fonts */
+font-family: "Inter", "Noto Sans Arabic", Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+/* Make type rendering look crisper */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+/* Enable kerning and optional ligatures */
+text-rendering: optimizeLegibility;
+```
+
+### Fonts
+
+#### Inter
+
+![Typography%204647c771946544ab9f2aea572004aea0/TypographyInter.png](Assets/Typography/TypographyInter.png)
+
+#### Web Embed
+
+Copy this code into the `<head>` of your HTML document:
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+Copy this code into the CSS document or `<script>` of your HTML document:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+```
+
+#### Licensing
+
+Inter is available as an open source font through [Google Fonts](https://fonts.google.com/specimen/Inter?query=inter).
+It is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+
+---
+
+> Arabic (العربية) is a Middle Eastern abjad, written right-to-left (660 million users). 2nd- or 3rd-most used script in the world. Used for the Arabic language since the 4th century, and for many other languages, often in Islamic countries or communities in Asia, Africa and the Middle East, like Persian, Uyghur, Kurdish, Punjabi, Sindhi, Balti, Balochi, Pashto, Lurish, Urdu, Kashmiri, Rohingya, Somali, Mandinka, Kazakh (in China), Kurdish, or Azeri (in Iran). Was used for Turkish until 1928. Includes 28 basic consonant letters for the Arabic language, plus additional letters for other languages. Some letters represent a consonant or a long vowel, while short vowels are optionally written with diacritics. Variants include Kufi with a very simplified structure, the widely-used Naskh calligraphic variant, and the highly cursive Nastaliq used mainly for Urdu. Needs software support for complex text layout (shaping).
+> 
+
+### Noto Sans Arabic
+
+![Typography - Arabic.png](Assets/Typography/Typography_-_Arabic.png)
+
+#### Web Embed
+
+Copy this code into the `<head>` of your HTML document:
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+Copy this code into the CSS document or `<script>` of your HTML document:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+```
+
+#### Licensing
+
+Noto Sans Arabic is available as an open source font through [Google Fonts](https://fonts.google.com/noto/specimen/Noto+Sans+Arabic).
+It is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+
 ## Installation
 
 Placebo UI is available as an [yarn package](https://www.google.com/).
