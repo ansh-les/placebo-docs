@@ -66,6 +66,23 @@ Critical colors are for destructive interactive elements, errors, and critical e
 ![#FBF0F0](https://placehold.co/32x32/FBF0F0/FBF0F0.png)![#F7E1E1](https://placehold.co/32x32/F7E1E1/F7E1E1.png)![#EDB9B9](https://placehold.co/32x32/EDB9B9/EDB9B9.png)![#E18A8A](https://placehold.co/32x32/E18A8A/E18A8A.png)![#D86565](https://placehold.co/32x32/D86565/D86565.png)![#CE3E3E](https://placehold.co/32x32/CE3E3E/CE3E3E.png)![#A53232](https://placehold.co/32x32/A53232/A53232.png)![#7B2525](https://placehold.co/32x32/7B2525/7B2525.png)![#631E1E](https://placehold.co/32x32/631E1E/631E1E.png)![#4A1616](https://placehold.co/32x32/4A1616/4A1616.png) 
 
 
+## Iconography
+
+Placebo uses simple and informative icons that draw on the visual language of the Placebo design system.
+
+![Icons from [Iconoir](https://iconoir.com)](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b38fce69-3ba8-44c6-ba8c-e73a7bee89f5/Screenshot_2021-07-28_at_7.15.19_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221031T123831Z&X-Amz-Expires=86400&X-Amz-Signature=8b49b9b134ff5e78cf152eb5d886bfb5f8e133d5879cee08a79c4e1d42a45854&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screenshot_2021-07-28_at_7.15.19_PM.png%22&x-id=GetObject)
+Icons from [Iconoir](https://iconoir.com)
+
+We source the majority of our UI icons from Luca Burgio's [Iconoir Icon Library](https://iconoir.com). This helps us move quickly and maintain visual consistency.
+
+[Iconoir | SVG Icons Library](https://iconoir.com)
+
+### Guidelines
+
+Use SVGs instead of raster images for fast loading & better quality.
+
+![Iconography%20664a446b5df046daa0d1126330253e2d/Screenshot_2021-07-28_at_7.28.33_PM.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/24101c80-b291-4035-9496-74f0569a5f61/Screenshot_2021-07-28_at_7.28.33_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221031T123956Z&X-Amz-Expires=86400&X-Amz-Signature=eff79fce5fd2c5c0499b5ec0e6cecdde9bd08f33fc15fe93bd563f298102cd50&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screenshot_2021-07-28_at_7.28.33_PM.png%22&x-id=GetObject)
+
 ## Installation
 
 Placebo UI is available as an [yarn package](https://www.google.com/).
