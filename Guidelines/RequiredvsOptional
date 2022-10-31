@@ -1,0 +1,37 @@
+# Required vs Optional Form Fields
+
+![Frame 6518.png](/Assets/Guidelines/RequiredvsOptional/Frame_6518.png)
+
+> Should the form fields show the required* or (optional) label?
+
+![Frame 6519.png](/Assets/Guidelines/RequiredvsOptional/Frame_6519.png)
+
+Required* labels let users know which fields are mandatory to fill before submitting a form.
+
+However, adding the required label to many fields makes the UI more cluttered.
+
+![Frame 6520.png](/Assets/Guidelines/RequiredvsOptional/Frame_6520.png)
+
+On the other hand, the (optional) label takes the opposite approach and only highlights the fields that are not mandatory.
+
+While this removes visual noise, Nielsen Norman recommends against it. However, telling the users they have a choice also aligns with Nielsen Norman usability principles about user control and freedom.
+
+---
+
+## Rule #1
+
+When all the fields are required — don't use the * (asterisk), but add a description saying "All fields are required.”
+
+![Frame 6521.png](/Assets/Guidelines/RequiredvsOptional/Frame_6521.png)
+
+## Rule #2
+
+When the number of required fields is over 50% — only highlight the optional ones.
+
+![Frame 6522.png](/Assets/Guidelines/RequiredvsOptional/Frame_6522.png)
+
+## Rule #3
+
+When the number of required fields is less than or equal to 50% — only highlight the required ones, but use the text label (keep the red colour for errors).
+
+![Frame 6523.png](/Assets/Guidelines/RequiredvsOptional/Frame_6523.png)
