@@ -3,28 +3,22 @@
   <a href="https://mui.com/" rel="noopener" target="_blank"><img width="150" src="https://mui.com/static/logo.svg" alt="MUI logo"></a>
 </p> -->
 
-<h1 align="center">Placebo UI</h1>
+# Placebo
 
-**Placebo UI** contains foundational React UI component libraries for shipping new features faster.
- 
+![This is an image](/Assets/Cover.png)
 
-<div align="center">
-<!-- 
-**[Stable channel v5](https://mui.com/)** -->
+Our design system helps us work together to build a great experience for all.
 
-[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.google.com/)
-[![yarn latest package](https://badgen.net/badge/yarn@latest/0.1.14/blue?icon=label)](https://www.google.com/)
- 
-</div>
+## Colours
+
+### Primary
+
+#EDF0FE #DAE0FD #B5C2FB #90A3FA #6B85F8 #4666F6 #3852C5 #2A3D94 #1C2962 #0E1431
 
 ## Installation
 
-### Placebo UI
-
 Placebo UI is available as an [yarn package](https://www.google.com/).
-Followed by necessary necessary dependencies like 
-- react-jss available as an [yarn package](https://cssinjs.org/react-jss/?v=v10.9.1-alpha.2)
-- iconoir-react available as an [yarn package](https://iconoir.com/)
+Followed by necessary necessary dependencies like
 
 ```sh
 yarn add @suraasa/placebo-ui react-jss iconoir-react
