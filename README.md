@@ -89,8 +89,6 @@ Use SVGs instead of raster images for fast loading & better quality.
 
 ### Font Stack
 
----
-
 We utilize system fonts at Suraasa, which allow for optimized performance. This design decision takes advantage of retina screens, dynamic kerning, additional font-weights, and improved readability.
 
 ```css
@@ -117,7 +115,7 @@ text-rendering: optimizeLegibility;
 
 ![Typography%204647c771946544ab9f2aea572004aea0/TypographyInter.png](Assets/Typography/TypographyInter.png)
 
-#### Web Embed
+##### Web Embed
 
 Copy this code into the `<head>` of your HTML document:
 
@@ -133,7 +131,7 @@ Copy this code into the CSS document or `<script>` of your HTML document:
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 ```
 
-#### Licensing
+##### Licensing
 
 Inter is available as an open source font through [Google Fonts](https://fonts.google.com/specimen/Inter?query=inter).
 It is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
@@ -143,11 +141,11 @@ It is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts
 > Arabic (العربية) is a Middle Eastern abjad, written right-to-left (660 million users). 2nd- or 3rd-most used script in the world. Used for the Arabic language since the 4th century, and for many other languages, often in Islamic countries or communities in Asia, Africa and the Middle East, like Persian, Uyghur, Kurdish, Punjabi, Sindhi, Balti, Balochi, Pashto, Lurish, Urdu, Kashmiri, Rohingya, Somali, Mandinka, Kazakh (in China), Kurdish, or Azeri (in Iran). Was used for Turkish until 1928. Includes 28 basic consonant letters for the Arabic language, plus additional letters for other languages. Some letters represent a consonant or a long vowel, while short vowels are optionally written with diacritics. Variants include Kufi with a very simplified structure, the widely-used Naskh calligraphic variant, and the highly cursive Nastaliq used mainly for Urdu. Needs software support for complex text layout (shaping).
 > 
 
-### Noto Sans Arabic
+#### Noto Sans Arabic
 
 ![Typography - Arabic.png](Assets/Typography/Typography_-_Arabic.png)
 
-#### Web Embed
+##### Web Embed
 
 Copy this code into the `<head>` of your HTML document:
 
@@ -163,7 +161,7 @@ Copy this code into the CSS document or `<script>` of your HTML document:
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
 ```
 
-#### Licensing
+##### Licensing
 
 Noto Sans Arabic is available as an open source font through [Google Fonts](https://fonts.google.com/noto/specimen/Noto+Sans+Arabic).
 It is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
